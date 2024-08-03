@@ -1,0 +1,27 @@
+students = {'Johnny':[5, 3, 3, 5, 4],'Bilbo':[2, 2, 2, 3], 'Steve':[4, 5, 5, 2],'Khendrik':[4, 4, 3],'Aaron': [5, 5, 5, 4, 5] }
+x = students['Johnny']
+y = sum(x)
+z = len(x)
+d = y/z
+students['Johnny'] = d
+x1 = students['Bilbo']
+y = sum(x1)
+z = len(x1)
+d = y/z
+students['Bilbo'] = d
+x2 = students['Steve']
+y = sum(x2)
+z = len(x2)
+d = y/z
+students['Steve'] = d
+x3 = students['Khendrik']
+y = sum(x3)
+z = len(x3)
+d = y/z
+students['Khendrik'] = d
+x4 = students['Aaron']
+y = sum(x4)
+z = len(x4)
+d = y/z
+students['Aaron'] = d
+print(students)
